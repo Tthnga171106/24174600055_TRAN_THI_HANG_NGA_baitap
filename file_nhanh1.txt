@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Sua file
+=======
+Sửa file
+>>>>>>> e05b38e029156f36f808f4eecd658eaafadccfab
