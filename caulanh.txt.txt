@@ -1,0 +1,186 @@
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git add new_folder
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git commit -m "Them folder"
+[main d6f3152] Them folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new_folder/file2.txt
+ create mode 100644 new_folder/file3.txt
+ create mode 100644 new_folder/filel.txt
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 346 bytes | 346.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git
+   0e7d1c1..d6f3152  main -> main
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git checkout nhanh_1
+Switched to branch 'nhanh_1'
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (nhanh_1)
+$ git checkout -b nhanh_4
+Switched to a new branch 'nhanh_4'
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (nhanh_4)
+$ ls
+README.md  file_nhanh1.txt
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (nhanh_4)
+$ echo 'Sửa file" >file_nhanh1.txt
+>
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ echo "Sua file" > file_nhanh1.txt
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git add .
+warning: in the working copy of 'file_nhanh1.txt', LF will be replaced by CRLF the next time Git touches it
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git commit -m "Sua doi file"
+[main 01d2042] Sua doi file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh1.txt
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git push origin nhanh_4
+error: src refspec nhanh_4 does not match any
+error: failed to push some refs to 'https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git'
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git commit -m "Sua doi file"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git push origin nhanh_4
+error: src refspec nhanh_4 does not match any
+error: failed to push some refs to 'https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git'
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git branch -D nhanh_4
+error: branch 'nhanh_4' not found
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git add .
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git pussh origin
+git: 'pussh' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git push origin
+To https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git fetch
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (7/7), 3.70 KiB | 236.00 KiB/s, done.
+From https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap
+   d6f3152..e05b38e  main       -> origin/main
+   27b0acc..c1d587f  nhanh_1    -> origin/nhanh_1
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git pull
+Auto-merging file_nhanh1.txt
+CONFLICT (add/add): Merge conflict in file_nhanh1.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git push origin
+To https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git fetch
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git push origin
+To https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git fetch
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git branch -l
+* main
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git add .
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main|MERGING)
+$ git commit -m "xao file"
+[main 6d55ed2] xao file
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$ git push origin
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 672 bytes | 672.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Tthnga171106/24174600055_TRAN_THI_HANG_NGA_baitap.git
+   e05b38e..6d55ed2  main -> main
+
+CNSHY@DESKTOP-RCE005Q MINGW64 ~/OneDrive/Trần Nga/24174600055_TRAN_THI_HANG_NGA_baitap (main)
+$
